@@ -16,7 +16,7 @@ class Backer
   end
   back_p.map do |p|
     p.project
+    end
   end
-end
   
 end

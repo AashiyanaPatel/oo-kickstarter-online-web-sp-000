@@ -15,4 +15,11 @@ class Project
   def self.all
     @@all
   end
+  
+  def backers
+    backers_all.map do |b|
+      b.backer
+       end
+     end
+    
 end
